@@ -1,4 +1,3 @@
-const registros = [
     {
         "id": 1,
         "nombre": "Pere Oriols",
