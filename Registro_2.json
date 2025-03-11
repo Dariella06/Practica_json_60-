@@ -1,0 +1,7 @@
+{
+    "id": 12345,
+    "nombre": "Dariella",
+    "edad": 18,
+    "puesto": ["Desarrolladora"],
+    "activo": true
+}
