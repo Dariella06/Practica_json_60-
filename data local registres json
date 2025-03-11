@@ -1,0 +1,218 @@
+const registros = [
+    {
+        "id": 1,
+        "nombre": "Pere Oriols",
+        "edad": 30,
+        "puesto": "Desarrollador",
+        "activo": true
+    },
+    {
+        "id": 2,
+        "nombre": "María García",
+        "edad": 25,
+        "puesto": "Diseñadora",
+        "activo": false
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos López",
+        "edad": 35,
+        "puesto": "Analista",
+        "activo": true 
+    },
+    {
+        "id": 4,
+        "nombre": "Marta Pérez",
+        "edad": 28,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 5,
+        "nombre": "Juan García",
+        "edad": 40,
+        "puesto": "Analista",
+        "activo": false
+    },
+    {
+        "id": 6,
+        "nombre": "Laura López",
+        "edad": 33,
+        "puesto": "Diseñadora",
+        "activo": true
+    },
+    {
+        "id": 7,
+        "nombre": "Carmen Jhonson",
+        "edad": 30,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 8,
+        "nombre": "Marta García",
+        "edad": 25,
+        "puesto": "Jefa de proyecto",
+        "activo": false
+    },
+    {
+        "id": 9,
+        "nombre": "Carlos López",
+        "edad": 35,
+        "puestp": "responsable de seguridad",
+        "activo": true 
+    },
+    {
+        "id": 10,
+        "nombre": "Mara Rodríguez",
+        "edad": 28,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 11,
+        "nombre": "Juan Hernández",
+        "edad": 40,
+        "puesto": "Analista",
+        "activo": false
+    },
+    {
+        "id": 12,
+        "nombre": "Laura Miller",
+        "edad": 33,
+        "puesto": "Diseñadora",
+        "activo": true
+    },
+    {
+        "id": 13,
+        "nombre": "Jordi Campos",
+        "edad": 30,
+        "puesto": "Desarrollador",
+        "activo": true
+    },
+    {
+        "id": 14,
+        "nombre": "María Sanchez",
+        "edad": 25,
+        "puesto": "Diseñadora",
+        "activo": false
+    },
+    {
+        "id": 15,
+        "nombre": "Hakima Kichohui",
+        "edad": 35,
+        "puestp": "Analista",
+        "activo": true 
+    },
+    {
+        "id": 16,
+        "nombre": "Elena Gomez",
+        "edad": 28,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 17,
+        "nombre": "Alex Franquet",
+        "edad": 40,
+        "puesto": "Responsable formación",
+        "activo": true    
+    },
+    {
+        "id": 18,
+        "nombre": "Aurora Oliveros",
+        "edad": 33,
+        "puesto": "Desarrolladora",
+        "activo": true  
+    }, 
+    { 
+        "id": 19,
+        "nombre": "Carmen Jhonson",
+        "edad": 30,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 20,
+        "nombre": "Erika Baque",
+        "edad": 25,
+        "puesto": "Jefa de proyecto",
+        "activo": false
+    },
+    {
+        "id": 21,
+        "nombre": "Sandra Montes",
+        "edad": 35,
+        "puestp": "responsable de seguridad",
+        "activo": true 
+    },
+    {
+        "id": 22,
+        "nombre": "Veronica Rodríguez",
+        "edad": 28,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 23,
+        "nombre": "Patrick Pitt",
+        "edad": 40,
+        "puesto": "Analista",
+        "activo": false
+    },
+    {
+        "id": 24,
+        "nombre": "Barack Obama",
+        "edad": 33,
+        "puesto": "Diseñador",
+        "activo": true
+    },
+    {
+        "id": 25,
+        "nombre": "Jordi Campos",
+        "edad": 30,
+        "puesto": "jefe de proyecto",
+        "activo": true
+    },
+    {
+        "id": 26,
+        "nombre": "Melannie Vazquez",
+        "edad": 25,
+        "puesto": "Diseñadora",
+        "activo": false
+    },
+    {
+        "id": 27,
+        "nombre": "Coral Rodriguez",
+        "edad": 35,
+        "puestp": "Analista",
+        "activo": true 
+    },
+    {
+        "id": 28,
+        "nombre": "Victor Rosado",
+        "edad": 28,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
+    {
+        "id": 29,
+        "nombre": "Victoria Hansel",
+        "edad": 40,
+        "puesto": "Responsable formación",
+        "activo": true    
+    },
+    {
+        "id": 30,
+        "nombre": "Cesar Betancourt",
+        "edad": 33,
+        "puesto": "Desarrollador",
+        "activo": true
+    },
+    {   
+        "id": 31,         
+        "nombre": "Carmen Jhonson",
+        "edad": 30,
+        "puesto": "Desarrolladora",
+        "activo": true
+    },
