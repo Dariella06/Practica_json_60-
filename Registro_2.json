@@ -152,7 +152,7 @@
         "edad": 40,
         "puesto": "Jefa de proyecto",
         "activo": false
-    }
+    },
     {
         "id": 23,
         "nombre": "Miguel Ramírez",
@@ -698,7 +698,7 @@
         "edad": 31,
         "puesto": "Desarrolladora",
         "activo": true
-    }
+    },
     {
         "id": 101,
         "nombre": "Tomás Sánchez",
@@ -1398,8 +1398,8 @@
         "edad": 32,
         "puesto": "Desarrolladora",
         "activo": true
-    }
-     {
+    },
+    {
         "id": 201,
         "nombre": "Marta Sánchez",
         "edad": 30,
@@ -2098,8 +2098,8 @@
         "edad": 31,
         "puesto": "Desarrolladora",
         "activo": true
-    }
-      {
+    },
+    {
         "id": 301,
         "nombre": "Isabel Gómez",
         "edad": 34,
@@ -2798,7 +2798,7 @@
         "edad": 36,
         "puesto": "Responsable de seguridad",
         "activo": true
-    }
+    },
     {
         "id": 401,
         "nombre": "Héctor González",
@@ -3498,7 +3498,7 @@
         "edad": 33,
         "puesto": "Desarrolladora",
         "activo": true
-    }
+    },
     {
         "id": 501,
         "nombre": "Carlos Ramírez",
