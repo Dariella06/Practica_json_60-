@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrar Empleados</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lista de Empleados</h1>
+  
+  <!-- Botones para filtrar empleados -->
+  <button id="btn-activos">Mostrar Activos</button>
+  <button id="btn-inactivos">Mostrar Inactivos</button>
+  
+  <!-- Tabla para mostrar los empleados filtrados -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody id="empleados-lista"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
