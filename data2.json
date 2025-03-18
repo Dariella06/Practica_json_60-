@@ -2650,7 +2650,7 @@
         "nombre": "Carlos Martín",
         "edad": 31,
         "puesto": "Analista",
-        "activo": true
+        "activo": false
     },
     {
         "id": 380,
