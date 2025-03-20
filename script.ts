@@ -50,30 +50,26 @@ function mostrarEmpleados(activos: boolean) {
 
     empleadosFiltrados.map(emp => {
         const fila = document.createElement("tr");
-        fila.innerHTML = `<td>${emp.id}</td><td>${emp.nombre}</td><td>${emp.edad}</td><td>${emp.puesto}</td><td>${emp.activo ? "Activo" : "Inactivo"}</td>`;
+        fila.innerHTML = `<td>${emp.id}</td>
+                          <td>${emp.nombre}</td>
+                          <td>${emp.edad}</td>
+                          <td>${emp.puesto}</td>
+                          <td>${emp.activo ? "Activo" : "Inactivo"}</td>`;
         tbodyEmpleados.appendChild(fila);
     });
 }
 
 async function cargarDatos() {
     try {
-        const respuestas = await Promise.all([
-            fetch("data1.json"),
-            fetch("data2.json"),
-            fetch("https://jsonplaceholder.typicode.com/users")
-        ]);
+        const respuesta1 = await fetch("data1.json");
+        const datos1 = await respuesta1.json();
 
-        const datos = await Promise.all(respuestas.map(r => r.json()));
+        const respuesta2 = await fetch("data2.json");
+        const datos2 = await respuesta2.json();
 
-        const empleadosApi: Empleado[] = datos[2].map((usuario: any) => ({
-            id: usuario.id,
-            nombre: usuario.name,
-            edad: Math.floor(Math.random() * 30) + 20,
-            puesto: "Empleado externo",
-            activo: Math.random() > 0.5
-        }));
+        const datosCombinados = [...datos1, ...datos2];
 
-        empleados = eliminarDuplicados([...datos[0], ...datos[1], ...empleadosApi].filter(validarEmpleado));
+        empleados = eliminarDuplicados(datosCombinados.filter(validarEmpleado));
 
         mostrarEmpleados(true);
     } catch (error) {
